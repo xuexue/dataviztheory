@@ -1,0 +1,82 @@
+/*
+ * Basic
+ */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.floatl {
+  float: left;
+}
+.floatr {
+  float: right;
+}
+.block {
+  display: block;
+  clear: both;
+}
+
+/*
+ * Container
+ */
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+/*
+ * Header
+ */
+.header {
+  margin-bottom: 2em;
+}
+.header hr {
+  border: 1px solid #eeeeee;
+}
+.header h1 {
+  margin: 0.25em 0;
+}
+.header .header-right{
+  float: right;
+  position: relative;
+  top: 35px;
+}
+
+/*
+ * Content
+ */
+.main-content {
+  float: left;
+  width: 600px;
+  min-height: 1000px;
+}
+.main-content p {
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+
+/*
+ * Table
+ */
+.table-content {
+  float: right;
+  width: 255px;
+  background: #eeeeee;
+  padding: 10px;
+  margin-top: 50px;
+}
+.table-content h4 {
+  margin: 0;
+}
+
+/*
+ * Footer
+ */
+.footer {
+  padding-top: 4em;
+  font-size: 0.8em;
+  clear: both;
+  display: block;
+  min-height: 50px;
+  text-align: center;
+}
+
