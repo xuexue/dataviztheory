@@ -1,0 +1,3 @@
+markdown: pandoc
+pandoc:
+  format: html5
