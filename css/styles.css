@@ -3,6 +3,7 @@
  */
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
 }
 .floatl {
   float: left;
@@ -52,6 +53,29 @@ body {
 .main-content p {
   line-height: 1.5em;
   margin-bottom: 1em;
+}
+.main-content blockquote {
+  border-left: 5px solid #eee;
+  margin-left: 0px;
+  padding-left: 15px;
+}
+.main-content table,tr,td,th {
+  border-collapse: collapse;
+  padding: 3px 5px;
+  font: monospace;
+  border: 1px solid #ccc;
+}
+.main-content tr:nth-child(odd) {
+  background-color:#eee;
+}
+.main-content tr:nth-child(even) {
+  background-color:#fff;
+}
+.main-content th {
+  background-color: #ddd;
+}
+.main-content table td{
+  min-width: 10px;
 }
 
 /*
